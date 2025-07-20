@@ -1,0 +1,21 @@
+name,address,latitude,longitude,specialization,insurance,health_schemes,rating
+Apollo Hospitals,"Jubilee Hills, Hyderabad",17.4126,78.3986,"Cardiology,Neurology,Oncology","Aetna,Star Health","Arogyasri,Ayushman Bharat",4.8
+KIMS Hospitals,"Secunderabad, Hyderabad",17.4399,78.4983,"Orthopedics,Cardiology,General","ICICI Lombard,Max Bupa","Arogyasri",4.6
+Yashoda Hospitals,"Somajiguda, Hyderabad",17.4225,78.4570,"Neurology,Gastroenterology,Pediatrics","Apollo Munich,Religare","Ayushman Bharat",4.7
+Care Hospitals,"Banjara Hills, Hyderabad",17.4158,78.4385,"Cardiology,Pulmonology,Urology","Star Health,HDFC Ergo","Arogyasri,Ayushman Bharat",4.5
+Continental Hospitals,"Gachibowli, Hyderabad",17.4348,78.3678,"Oncology,Orthopedics,Neurology","Max Bupa,Bajaj Allianz","None",4.4
+Star Hospitals,"Banjara Hills, Hyderabad",17.4108,78.4380,"Cardiology,Endocrinology,General","ICICI Lombard,Religare","Arogyasri",4.3
+Olive Hospitals,"Mehdipatnam, Hyderabad",17.3950,78.4305,"Pediatrics,Gynecology,Orthopedics","Star Health,Apollo Munich","Ayushman Bharat",4.2
+Medicover Hospitals,"Hitech City, Hyderabad",17.4415,78.3800,"Gastroenterology,Urology,Cardiology","HDFC Ergo,Bajaj Allianz","Arogyasri,Ayushman Bharat",4.6
+AIG Hospitals,"Gachibowli, Hyderabad",17.4240,78.3340,"Gastroenterology,Hepatology,Oncology","Max Bupa,Star Health","None",4.7
+Sunshine Hospitals,"Paradise, Secunderabad",17.4420,78.4890,"Orthopedics,Neurology,Pulmonology","ICICI Lombard,Religare","Arogyasri",4.5
+Virinchi Hospitals,"Banjara Hills, Hyderabad",17.4190,78.4440,"Cardiology,Orthopedics,Dermatology","Star Health,HDFC Ergo","Ayushman Bharat",4.4
+PACE Hospitals,"Hitech City, Hyderabad",17.4470,78.3760,"Gastroenterology,Urology,General","Apollo Munich,Max Bupa","Arogyasri",4.3
+Rainbow Children’s Hospital,"Banjara Hills, Hyderabad",17.4180,78.4360,"Pediatrics,Neurology,Gynecology","ICICI Lombard,Religare","Ayushman Bharat",4.7
+Global Hospitals,"Lakdi Ka Pul, Hyderabad",17.4050,78.4650,"Hepatology,Oncology,Cardiology","Bajaj Allianz,Star Health","None",4.5
+Premier Hospitals,"Tolichowki, Hyderabad",17.3980,78.4130,"Pulmonology,Endocrinology,General","HDFC Ergo,Apollo Munich","Arogyasri",4.2
+Aware Gleneagles,"LB Nagar, Hyderabad",17.3510,78.5460,"Orthopedics,Cardiology,Neurology","Max Bupa,ICICI Lombard","Ayushman Bharat",4.6
+Fernandez Hospital,"Bogulkunta, Hyderabad",17.3920,78.4750,"Gynecology,Pediatrics,General","Star Health,Religare","Arogyasri,Ayushman Bharat",4.4
+MaxCure Hospitals,"Madhapur, Hyderabad",17.4310,78.3990,"Urology,Oncology,Gastroenterology","HDFC Ergo,Bajaj Allianz","None",4.3
+Century Super Speciality,"Road No. 12, Banjara Hills",17.4130,78.4410,"Neurology,Dermatology,ENT","Apollo Munich,Max Bupa","Arogyasri",4.5
+Basavatarakam Indo American,"Road No. 10, Banjara Hills",17.4140,78.4370,"Oncology,Cardiology,General","ICICI Lombard,Star Health","Ayushman Bharat",4.8

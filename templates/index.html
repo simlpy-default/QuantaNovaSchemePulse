@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        window.onload = function() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        document.getElementById('latitude').value = position.coords.latitude;
+                        document.getElementById('longitude').value = position.coords.longitude;
+                        document.querySelector('.location-info').innerText = "📍 Location Detected";
+                    },
+                    (error) => {
+                        document.querySelector('.location-info').innerText = "📍 Location Access Denied";
+                    }
+                );
+            } else {
+                document.querySelector('.location-info').innerText = "📍 Geolocation not supported";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Hospital Finder</h1>
+            <p class="subtitle">Enter your symptoms to diagnose possible conditions and find nearby hospitals</p>
+        </header>
+
+        <section class="form-section">
+            <p class="location-info">📍 Detecting Location...</p>
+            <form method="POST">
+                <input type="hidden" id="latitude" name="latitude">
+                <input type="hidden" id="longitude" name="longitude">
+
+                <div class="form-group">
+                    <label for="age">👤 Your Age</label>
+                    <input type="number" id="age" name="age" required min="0" max="150">
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">🚻 Your Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="symptoms">🤒 Enter Your Symptoms (comma-separated, e.g., Chest Pain, Shortness of Breath)</label>
+                    <input type="text" id="symptoms" name="symptoms" placeholder="e.g., Chest Pain, Fatigue" required>
+                </div>
+
+                <button type="submit">🔍 Diagnose & Find Hospitals</button>
+            </form>
+
+            {% if error_message %}
+                <p class="error-message">{{ error_message }}</p>
+            {% endif %}
+
+            {% if predictions %}
+                <div class="diagnosis-section">
+                    <h2>🩺 Possible Diagnoses</h2>
+                    <ul class="diagnosis-list">
+                        {% for disease, confidence in predictions %}
+                            <li>{{ disease }} <span class="confidence">- {{ confidence }}</span></li>
+                        {% endfor %}
+                    </ul>
+                    <p>Severity (Top Prediction): <span class="severity {{ severity.lower() }}">{{ severity }}</span></p>
+                    <p class="disclaimer">*These are predictions, not medical diagnoses. Consult a doctor for confirmation.</p>
+                </div>
+            {% endif %}
+
+            {% if recommendations %}
+                <section class="results-section">
+                    <h2>🏨 Recommended Hospitals</h2>
+                    <div class="recommendations">
+                        {% for hospital in recommendations %}
+                            <div class="hospital-card">
+                                <h3>{{ hospital.name }}</h3>
+                                <p><span class="icon">📍</span> {{ hospital.address }}</p>
+                                <p><span class="icon">🩺</span> {{ hospital.specialization }}</p>
+                                <p><span class="icon">💳</span> {{ hospital.insurance }}</p>
+                                <p><span class="icon">🏥</span> Health Schemes: {{ hospital.health_schemes }}</p>
+                                <p><span class="icon">⭐</span> {{ hospital.rating }}/5</p>
+                                <p><span class="icon">📏</span> {{ "%.2f"|format(hospital.distance) }} miles</p>
+                                <a href="{{ hospital.maps_link }}" target="_blank" class="navigate-btn">🗺️ Navigate</a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </section>
+            {% endif %}
+        </section>
+    </div>
+</body>
+</html>

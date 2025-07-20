@@ -1,0 +1,136 @@
+disease,symptoms,specialization,severity,min_age,max_age,gender_prevalence
+Heart Attack,"Chest Pain,Shortness of Breath,Palpitations,Fatigue,Sweating",Cardiology,Critical,40,100,both
+Angina,"Chest Pain,Shortness of Breath,Fatigue",Cardiology,Moderate,40,100,both
+Migraine,"Headache,Dizziness,Nausea,Blurred Vision,Sensitivity to Light",Neurology,Moderate,18,60,female
+Tension Headache,"Headache,Fatigue,Tight Band Sensation",Neurology,Mild,18,60,both
+Fracture,"Broken Bone,Swelling,Joint Pain,Back Pain,Bruising",Orthopedics,Moderate,0,100,both
+Influenza,"Fever,Cough,Fatigue,Chills,Body Aches",General,Mild,0,100,both
+Common Cold,"Cough,Sore Throat,Fatigue,Runny Nose",General,Mild,0,100,both
+Stroke,"Stroke,Dizziness,Muscle Weakness,Memory Loss,Numbness",Neurology,Critical,40,100,both
+Gastritis,"Abdominal Pain,Nausea,Vomiting,Burning Sensation,Bloating",Gastroenterology,Moderate,0,100,both
+Asthma,"Shortness of Breath,Cough,Chronic Cough,Chest Pain,Wheezing",Pulmonology,Moderate,0,100,both
+Arthritis,"Joint Pain,Swelling,Stiff Neck,Back Pain,Redness",Orthopedics,Moderate,40,100,both
+Bronchitis,"Cough,Shortness of Breath,Fever,Chills,Chest Discomfort",Pulmonology,Mild,0,100,both
+Food Poisoning,"Nausea,Vomiting,Abdominal Pain,Fever,Diarrhea",Gastroenterology,Mild,0,100,both
+Sciatica,"Back Pain,Joint Pain,Muscle Weakness,Numbness,Leg Pain",Orthopedics,Moderate,40,100,both
+Vertigo,"Dizziness,Headache,Nausea,Blurred Vision,Balance Issues",Neurology,Moderate,0,100,both
+Eczema,"Rash,Itching,Hair Loss,Swelling,Dry Skin",Dermatology,Mild,0,100,both
+Pharyngitis,"Sore Throat,Cough,Difficulty Swallowing,Fever,Hoarseness",General,Mild,0,100,both
+Hypothyroidism,"Fatigue,Weight Loss,Hair Loss,Palpitations,Cold Intolerance",Endocrinology,Moderate,0,100,both
+Glaucoma,"Blurred Vision,Headache,Fatigue,Eye Pain,Halos Around Lights",Ophthalmology,Moderate,40,100,both
+Otitis Media,"Ear Pain,Fever,Difficulty Swallowing,Hearing Loss,Ear Discharge",ENT,Mild,0,100,both
+Rheumatoid Arthritis,"Swelling,Joint Pain,Fatigue,Stiff Neck,Morning Stiffness",Rheumatology,Moderate,40,100,both
+Kidney Infection,"Burning Sensation,Frequent Urination,Blood in Urine,Fever,Flank Pain",Urology,Moderate,0,100,both
+Hepatitis,"Jaundice,Abdominal Pain,Fatigue,Nausea,Dark Urine",Hepatology,Moderate,0,100,both
+Epilepsy,"Seizures,Memory Loss,Dizziness,Muscle Weakness,Confusion",Neurology,Critical,0,100,both
+Diabetes,"Frequent Urination,Weight Loss,Fatigue,Blurred Vision,Thirst",Endocrinology,Moderate,0,100,both
+Pancreatitis,"Abdominal Pain,Vomiting,Nausea,Fever,Fast Heartbeat",Gastroenterology,Moderate,0,100,both
+Arrhythmia,"Palpitations,Chest Pain,Shortness of Breath,Dizziness,Fainting",Cardiology,Moderate,40,100,both
+Laryngitis,"Sore Throat,Difficulty Swallowing,Cough,Husky Voice,Throat Dryness",ENT,Mild,0,100,both
+Multiple Sclerosis,"Muscle Weakness,Blurred Vision,Memory Loss,Fatigue,Tingling",Neurology,Critical,0,100,both
+Urinary Tract Infection,"Burning Sensation,Frequent Urination,Blood in Urine,Abdominal Pain,Cloudy Urine",Urology,Mild,0,100,both
+Alopecia,"Hair Loss,Itching,Rash,Scalp Irritation,Bald Patches",Dermatology,Mild,0,100,both
+Lymphoma,"Night Sweats,Weight Loss,Fever,Swelling,Lymph Node Enlargement",Oncology,Critical,0,100,both
+Bladder Cancer,"Blood in Urine,Frequent Urination,Burning Sensation,Abdominal Pain,Pelvic Pain",Urology,Critical,40,100,both
+Tuberculosis,"Chronic Cough,Night Sweats,Fever,Weight Loss,Chest Pain",Pulmonology,Critical,0,100,both
+Alzheimer’s Disease,"Memory Loss,Dizziness,Fatigue,Confusion,Disorientation",Neurology,Moderate,60,100,both
+Psoriasis,"Rash,Itching,Swelling,Joint Pain,Scaly Skin",Dermatology,Mild,0,100,both
+Pneumonia,"Cough,Fever,Shortness of Breath,Chills,Chest Pain",Pulmonology,Critical,0,100,both
+Appendicitis,"Abdominal Pain,Nausea,Vomiting,Fever,Loss of Appetite",Gastroenterology,Critical,0,100,both
+Meningitis,"Fever,Headache,Stiff Neck,Seizures,Rash",Neurology,Critical,0,100,both
+Sinusitis,"Headache,Facial Pain,Nasal Congestion,Fever,Cough",ENT,Moderate,0,100,both
+Gallstones,"Abdominal Pain,Nausea,Vomiting,Jaundice,Back Pain",Gastroenterology,Moderate,0,100,both
+Celiac Disease,"Abdominal Pain,Bloating,Diarrhea,Weight Loss,Fatigue",Gastroenterology,Moderate,0,100,both
+Hyperthyroidism,"Weight Loss,Palpitations,Nervousness,Sweating,Fatigue",Endocrinology,Moderate,0,100,both
+Parkinson’s Disease,"Tremors,Muscle Stiffness,Memory Loss,Confusion,Fatigue",Neurology,Critical,60,100,both
+Depression,"Fatigue,Sleep Problems,Loss of Interest,Weight Loss,Suicidal Thoughts",Psychiatry,Moderate,0,100,both
+Anxiety Disorder,"Palpitations,Restlessness,Fatigue,Sleep Problems,Nervousness",Psychiatry,Moderate,0,100,both
+Insomnia,"Sleep Problems,Fatigue,Irritability,Difficulty Concentrating,Restlessness",Psychiatry,Mild,0,100,both
+Conjunctivitis,"Eye Redness,Itching,Swelling,Discharge,Blurred Vision",Ophthalmology,Mild,0,100,both
+Cataract,"Blurred Vision,Night Vision Issues,Eye Pain,Glare,Faded Colors",Ophthalmology,Moderate,40,100,both
+Tonsillitis,"Sore Throat,Swelling,Difficulty Swallowing,Fever,Bad Breath",ENT,Mild,0,100,both
+GERD,"Heartburn,Abdominal Pain,Nausea,Chest Pain,Sore Throat",Gastroenterology,Moderate,0,100,both
+Hernia,"Abdominal Bulge,Pain,Lump,Fatigue,Burning Sensation",Gastroenterology,Moderate,0,100,both
+Measles,"Fever,Rash,Runny Nose,Conjunctivitis,Cough",General,Critical,0,100,both
+Chickenpox,"Rash,Fever,Itching,Tiredness,Loss of Appetite",General,Mild,0,100,both
+Dengue,"Fever,Joint Pain,Rash,Bleeding,Nausea",General,Critical,0,100,both
+Malaria,"Fever,Chills,Sweating,Headache,Vomiting",General,Critical,0,100,both
+Typhoid,"Fever,Weakness,Stomach Pain,Diarrhea,Loss of Appetite",General,Moderate,0,100,both
+Zika Virus,"Fever,Rash,Joint Pain,Red Eyes,Headache",General,Moderate,0,100,both
+Rabies,"Fever,Confusion,Hydrophobia,Hallucinations,Paralysis",General,Critical,0,100,both
+Tetanus,"Muscle Spasms,Stiffness,Fever,Sweating,Fast Heartbeat",General,Critical,0,100,both
+Leukemia,"Fatigue,Fever,Night Sweats,Bleeding,Weight Loss",Oncology,Critical,0,100,both
+Colon Cancer,"Abdominal Pain,Blood in Stool,Fatigue,Weight Loss,Constipation",Oncology,Critical,40,100,both
+Skin Cancer,"Rash,Bleeding Lesions,Skin Growths,Itching,Discoloration",Dermatology,Critical,40,100,both
+Osteoporosis,"Back Pain,Joint Pain,Stooped Posture,Fractures,Muscle Weakness",Orthopedics,Moderate,50,100,both
+Fibromyalgia,"Fatigue,Muscle Pain,Sleep Problems,Joint Stiffness,Mood Issues",Rheumatology,Moderate,0,100,both
+Autism Spectrum Disorder,"Speech Delay,Social Withdrawal,Repetitive Behaviors,Hyperactivity,Irritability",Psychiatry,Moderate,0,100,both
+ADHD,"Restlessness,Impulsiveness,Difficulty Concentrating,Fidgeting,Mood Swings",Psychiatry,Moderate,0,100,both
+Polycystic Ovary Syndrome,"Irregular Periods,Hair Loss,Weight Gain,Acne,Fatigue",Gynecology,Moderate,15,50,female
+Endometriosis,"Pelvic Pain,Heavy Periods,Fatigue,Nausea,Back Pain",Gynecology,Moderate,15,50,female
+Pre-eclampsia,"High Blood Pressure,Swelling,Blurred Vision,Headache,Fatigue",Gynecology,Critical,15,50,female
+Infertility,"Irregular Periods,Hormonal Imbalance,Fatigue,Weight Gain,Low Libido",Gynecology,Moderate,15,50,both
+Cervical Cancer,"Abnormal Bleeding,Pelvic Pain,Fatigue,Weight Loss,Vaginal Discharge",Gynecology,Critical,40,100,female
+Prostate Cancer,"Frequent Urination,Blood in Urine,Erectile Dysfunction,Back Pain,Fatigue",Urology,Critical,40,100,male
+Kidney Stones,"Abdominal Pain,Blood in Urine,Fever,Nausea,Painful Urination",Urology,Moderate,0,100,both
+Sleep Apnea,"Snoring,Fatigue,Headache,Dry Mouth,Restlessness",Pulmonology,Moderate,0,100,both
+Whooping Cough,"Chronic Cough,Fatigue,Vomiting,Cold Symptoms,Fever",Pulmonology,Moderate,0,100,both
+Pleurisy,"Chest Pain,Shortness of Breath,Cough,Fever,Shoulder Pain",Pulmonology,Moderate,0,100,both
+Anemia,"Fatigue,Pale Skin,Dizziness,Shortness of Breath,Cold Hands",General,Moderate,0,100,both
+Hemophilia,"Bleeding,Bruising,Joint Pain,Swelling,Fatigue",Hematology,Critical,0,100,both
+Sickle Cell Anemia,"Fatigue,Pain Episodes,Dizziness,Swelling,Fever",Hematology,Critical,0,100,both
+Varicose Veins,"Swelling,Fatigue,Cramping,Pain,Visible Veins",Vascular Surgery,Moderate,0,100,both
+Deep Vein Thrombosis,"Swelling,Pain,Warmth,Redness,Fatigue",Vascular Surgery,Critical,0,100,both
+Chikungunya,"Joint Pain,Fever,Rash,Muscle Pain,Fatigue",General,Moderate,0,100,both
+Hives,"Itching,Rash,Swelling,Redness,Dry Skin",Dermatology,Mild,0,100,both
+Allergic Rhinitis,"Sneezing,Nasal Congestion,Runny Nose,Itchy Eyes,Fatigue",ENT,Mild,0,100,both
+Raynaud’s Disease,"Cold Fingers,Numbness,Pain,Color Changes,Swelling",Rheumatology,Moderate,0,100,both
+Bell’s Palsy,"Facial Drooping,Dizziness,Eye Irritation,Dry Mouth,Headache",Neurology,Moderate,0,100,both
+Tonsil Stones,"Bad Breath,Sore Throat,Difficulty Swallowing,White Debris,Ear Pain",ENT,Mild,0,100,both
+ACL Tear,"Knee Pain,Swelling,Instability,Limited Motion,Popping Sensation",Orthopedics,Moderate,0,100,both
+Plantar Fasciitis,"Heel Pain,Stiffness,Fatigue,Foot Pain,Worsens with Activity",Orthopedics,Mild,0,100,both
+Gout,"Joint Pain,Swelling,Redness,Warmth,Fever",Rheumatology,Moderate,40,100,both
+Sarcoidosis,"Fatigue,Dry Cough,Skin Lesions,Swollen Lymph Nodes,Eye Redness",Pulmonology,Moderate,0,100,both
+Silicosis,"Shortness of Breath,Cough,Fatigue,Chest Pain,Fever",Pulmonology,Critical,0,100,both
+Histoplasmosis,"Fever,Cough,Chest Pain,Fatigue,Weight Loss",Pulmonology,Moderate,0,100,both
+Legionnaires’ Disease,"Fever,Cough,Shortness of Breath,Muscle Aches,Diarrhea",Pulmonology,Critical,0,100,both
+Barrett’s Esophagus,"Heartburn,Chest Pain,Difficulty Swallowing,Cough,Nausea",Gastroenterology,Moderate,0,100,both
+Achalasia,"Difficulty Swallowing,Regurgitation,Chest Pain,Cough,Weight Loss",Gastroenterology,Moderate,0,100,both
+Wilson’s Disease,"Jaundice,Tremors,Fatigue,Memory Loss,Swelling",Hepatology,Critical,0,100,both
+Cirrhosis,"Fatigue,Jaundice,Bruising,Swelling,Confusion",Hepatology,Critical,0,100,both
+Esophageal Cancer,"Difficulty Swallowing,Chest Pain,Weight Loss,Hoarseness,Cough",Oncology,Critical,40,100,both
+Thalassemia,"Fatigue,Pale Skin,Delayed Growth,Shortness of Breath,Swelling",Hematology,Moderate,0,100,both
+Marfan Syndrome,"Tall Stature,Heart Murmurs,Joint Pain,Eye Issues,Fatigue",Cardiology,Moderate,0,100,both
+Takayasu Arteritis,"Fatigue,Joint Pain,Chest Pain,Weight Loss,Fever",Rheumatology,Critical,0,100,both
+Chagas Disease,"Fever,Swelling,Fatigue,Heart Palpitations,Digestive Problems",General,Critical,0,100,both
+Giardiasis,"Diarrhea,Abdominal Pain,Bloating,Fatigue,Weight Loss",Gastroenterology,Mild,0,100,both
+Trichomoniasis,"Vaginal Discharge,Itching,Frequent Urination,Painful Urination,Swelling",Gynecology,Mild,15,50,female
+Pelvic Inflammatory Disease,"Pelvic Pain,Fever,Vaginal Discharge,Painful Urination,Bleeding",Gynecology,Moderate,15,50,female
+Bacterial Vaginosis,"Discharge,Itching,Foul Odor,Burning Sensation,Swelling",Gynecology,Mild,15,50,female
+Hydrocele,"Swelling,Painless Lump,Heaviness,Discomfort,Fatigue",Urology,Mild,0,100,male
+Epididymitis,"Testicular Pain,Swelling,Fever,Painful Urination,Discharge",Urology,Moderate,0,100,male
+Testicular Torsion,"Severe Pain,Swelling,Nausea,Fatigue,High-Riding Testicle",Urology,Critical,0,100,male
+Bipolar Disorder,"Mood Swings,Fatigue,Hyperactivity,Depression,Insomnia",Psychiatry,Moderate,0,100,both
+Schizophrenia,"Hallucinations,Delusions,Memory Loss,Confusion,Social Withdrawal",Psychiatry,Critical,0,100,both
+Obsessive-Compulsive Disorder,"Repetitive Thoughts,Anxiety,Fatigue,Ritual Behaviors,Insomnia",Psychiatry,Moderate,0,100,both
+Panic Disorder,"Palpitations,Chest Pain,Sweating,Numbness,Nausea",Psychiatry,Moderate,0,100,both
+Borderline Personality Disorder,"Mood Instability,Impulsivity,Self-Harm,Depression,Fear of Abandonment",Psychiatry,Moderate,0,100,both
+Conduct Disorder,"Aggressive Behavior,Rule Violation,Impulsivity,Anger Issues,Lying",Psychiatry,Moderate,0,100,both
+Lactose Intolerance,"Bloating,Diarrhea,Abdominal Pain,Gas,Nausea",Gastroenterology,Mild,0,100,both
+Crohn’s Disease,"Abdominal Pain,Diarrhea,Weight Loss,Fatigue,Fever",Gastroenterology,Moderate,0,100,both
+Ulcerative Colitis,"Bloody Diarrhea,Abdominal Cramps,Fatigue,Weight Loss,Fever",Gastroenterology,Moderate,0,100,both
+Ankylosing Spondylitis,"Back Pain,Stiffness,Fatigue,Joint Swelling,Reduced Flexibility",Rheumatology,Moderate,0,100,both
+Interstitial Cystitis,"Pelvic Pain,Frequent Urination,Painful Urination,Bloating,Discomfort",Urology,Moderate,0,100,both
+Renal Failure,"Fatigue,Swelling,Nausea,Confusion,Blood in Urine",Nephrology,Critical,0,100,both
+Myasthenia Gravis,"Muscle Weakness,Drooping Eyelids,Fatigue,Slurred Speech,Breathing Difficulty",Neurology,Critical,0,100,both
+ALS (Lou Gehrig’s Disease),"Muscle Weakness,Speech Issues,Fatigue,Breathing Problems,Paralysis",Neurology,Critical,0,100,both
+Torticollis,"Neck Pain,Stiffness,Tilting Head,Dizziness,Limited Motion",Orthopedics,Mild,0,100,both
+Burns,"Pain,Swelling,Redness,Blisters,Peeling Skin",General,Critical,0,100,both
+Heatstroke,"High Fever,Dizziness,Confusion,Muscle Cramps,Seizures",General,Critical,0,100,both
+Snow Blindness,"Blurred Vision,Eye Pain,Redness,Swelling,Photophobia",Ophthalmology,Moderate,0,100,both
+Ear Barotrauma,"Ear Pain,Hearing Loss,Dizziness,Ringing,Nausea",ENT,Mild,0,100,both
+Hypoglycemia,"Sweating,Fatigue,Confusion,Blurred Vision,Shaking",Endocrinology,Critical,0,100,both
+Hyperkalemia,"Palpitations,Nausea,Muscle Weakness,Numbness,Irregular Heartbeat",Nephrology,Critical,0,100,both
+Hypernatremia,"Thirst,Confusion,Fatigue,Swelling,Seizures",Nephrology,Critical,0,100,both
+Carbon Monoxide Poisoning,"Headache,Dizziness,Nausea,Fatigue,Confusion",General,Critical,0,100,both
+Sepsis,"Fever,Rapid Heartbeat,Low Blood Pressure,Fatigue,Confusion",General,Critical,0,100,both
